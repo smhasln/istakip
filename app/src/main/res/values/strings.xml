@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sengel Grup</string>
+
+    <string-array name="Filtreler">
+        <item>Aktif Üyeler</item>
+        <item>Pasif Üyeler</item>
+        <item>Tüm Üyeler</item>
+    </string-array>
+
+    <array name="page_indicators">
+        <item>Circle</item>
+        <item>Dash</item>
+        <item>Round Square</item>
+        <item>Square</item>
+        <item>Custom</item>
+    </array>
+
+</resources>

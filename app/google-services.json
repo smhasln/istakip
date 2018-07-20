@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "288795404971",
+    "firebase_url": "https://tekmarselcuk.firebaseio.com",
+    "project_id": "tekmarselcuk",
+    "storage_bucket": "tekmarselcuk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288795404971:android:708a410cecd528b1",
+        "android_client_info": {
+          "package_name": "com.sengelgrup.istakip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288795404971-m64f46gc0jv716mejn8egorufa2qkukq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARAiMgfZQtkt-gpU81_QibuwEJPM8JvII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

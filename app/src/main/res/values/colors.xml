@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#163e59</color>
+    <color name="colorPrimaryDark">#0b2637</color>
+    <color name="colorpasif">#3d163e59</color>
+    <color name="colorAccent">#ff006a</color>
+    <color name="arkaplan">#e94047</color>
+    <color name="arkaplan_color">#125d44</color>
+    <color name="liste_rengi">#194360</color>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:paddingBottom="15dp">
+
+    <ImageView
+        android:id="@+id/custom_istek_durum"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_check_circle_black_24dp" />
+
+    <TextView
+        android:id="@+id/custom_istek_kisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Semih Aslan"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/custom_istek_durum"
+        app:layout_constraintTop_toTopOf="@+id/custom_istek_durum" />
+
+    <TextView
+        android:id="@+id/custom_istek_baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Bahçe sulanması gerekiyor."
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/custom_istek_durum"
+        app:layout_constraintTop_toBottomOf="@+id/custom_istek_kisi" />
+</android.support.constraint.ConstraintLayout>
